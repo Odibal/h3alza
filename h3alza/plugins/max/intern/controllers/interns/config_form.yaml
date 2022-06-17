@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Intern
+
+# Model Form Field configuration
+form: $/max/intern/models/intern/fields.yaml
+
+# Model Class name
+modelClass: Max\Intern\Models\Intern
+
+# Default redirect location
+defaultRedirect: max/intern/interns
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: max/intern/interns/update/:id
+    redirectClose: max/intern/interns
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: max/intern/interns
+    redirectClose: max/intern/interns
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

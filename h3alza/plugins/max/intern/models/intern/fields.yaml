@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    first_name:
+        label: first_name
+        span: left
+    last_name:
+        label: last_name
+        span: right
+    description:
+        label: description
+        type: textarea
+        size: large
+    email:
+        label: email
+        span: right
+    phone:
+        label: phone
+        span: left
+    linkedIn:
+        label: linkedin
