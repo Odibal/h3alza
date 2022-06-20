@@ -10,11 +10,6 @@ class Firm extends Model
     use \October\Rain\Database\Traits\Validation;
 
     /**
-     * @var string The database table used by the model.
-     */
-    public $table = 'max_firm_firms';
-
-    /**
      * @var array Guarded fields
      */
     protected $guarded = ['*'];
@@ -24,11 +19,7 @@ class Firm extends Model
      */
     protected $fillable = [];
 
-    /**
-     * @var array Validation rules for attributes
-     */
-    public $rules = [];
-
+    
     /**
      * @var array Attributes to be cast to native types
      */
