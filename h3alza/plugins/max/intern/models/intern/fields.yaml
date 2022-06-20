@@ -4,20 +4,20 @@
 
 fields:
     first_name:
-        label: first_name
+        label: First_name
         span: left
     last_name:
-        label: last_name
+        label: Last_name
         span: right
     description:
-        label: description
+        label: Description
         type: textarea
         size: large
     email:
-        label: email
+        label: Email
         span: right
     phone:
-        label: phone
+        label: Phone
         span: left
     linkedIn:
-        label: linkedin
+        label: Linkedin
