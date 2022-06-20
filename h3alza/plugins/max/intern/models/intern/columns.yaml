@@ -7,14 +7,14 @@ columns:
         label: ID
         searchable: true
     first_name:
-        label: first_name
+        label: First_name
     last_name:
-        label: last_name
+        label: Last_name
     description:
-        label: description
+        label: Description
     email:
-        label: email
+        label: Email
     phone:
-        label: phone
+        label: Phone
     linkedIn:
-        label: linkedin
+        label: Linkedin
