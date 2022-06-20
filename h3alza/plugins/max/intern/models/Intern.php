@@ -24,10 +24,6 @@ class Intern extends Model
      */
     protected $fillable = [];
 
-    /**
-     * @var array Validation rules for attributes
-     */
-    public $rules = [];
 
     /**
      * @var array Attributes to be cast to native types
