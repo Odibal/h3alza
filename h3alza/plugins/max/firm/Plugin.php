@@ -8,11 +8,7 @@ use System\Classes\PluginBase;
  */
 class Plugin extends PluginBase
 {
-    /**
-     * Returns information about this plugin.
-     *
-     * @return array
-     */
+
     public function pluginDetails()
     {
         return [
@@ -23,26 +19,6 @@ class Plugin extends PluginBase
         ];
     }
 
-    public function registerComponents()
-    {
-        return []; // Remove this line to activate
-
-        return [
-            'Max\Firm\Components\MyComponent' => 'myComponent',
-        ];
-    }
-
-    public function registerPermissions()
-    {
-        return []; // Remove this line to activate
-
-        return [
-            'max.firm.some_permission' => [
-                'tab' => 'Firm',
-                'label' => 'Some permission'
-            ],
-        ];
-    }
 
     public function registerNavigation()
     {
